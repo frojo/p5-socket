@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INSERT TITLE HERE</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.3/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+    <style>
+      body {
+        background-color: grey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: fixed;
+        margin: 0;
+        padding: 0;
+        /* z-index: -1; */
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+      }
+      #sketch-container {
+        position: absolute;
+        overflow: hidden;
+        width: 100vw;
+        min-height: 56.25vw;
+      }
+      canvas {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+    </main>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+  </body>
+</html>
